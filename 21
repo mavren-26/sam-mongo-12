@@ -1,0 +1,15 @@
+💡 2. Build a Leaderboard of Users Based on Weighted Scores
+
+Goal: Combine multiple metrics like posts, comments, and likes to calculate a weighted score for each user and generate a leaderboard.
+
+💾 Collections
+
+users: { _id, name }
+
+posts: { userId }
+
+comments: { userId }
+
+likes: { userId }
+
+🧩 Key Concepts: $lookup, $addFields, $project, $sort

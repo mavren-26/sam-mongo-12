@@ -1,0 +1,6 @@
+🧠 1. Detect Anomalies in Daily User Activity
+
+Goal: Find users whose daily login count is more than 2× their average number of logins.
+
+💾 Collection: logins
+{ userId: 1, loginTime: ISODate("2025-10-15T10:00:00Z") }

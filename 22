@@ -1,0 +1,6 @@
+⚙️ 3. Analyze Product Sales Trends with Moving Average
+
+Goal: For each product, calculate the 7-day moving average of sales to understand performance trends.
+
+💾 Collection: sales
+{ productId: "Laptop", date: ISODate("2025-10-20"), revenue: 1000 }
