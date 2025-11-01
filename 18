@@ -1,0 +1,8 @@
+📊 2. Calculate Monthly Revenue and Growth Percentage
+
+Goal: For each month, calculate total revenue and growth % compared to the previous month.
+
+💾 Collection: orders
+{ _id, amount: 500, orderDate: ISODate("2025-09-15") }
+
+🧠 Key Concept: $group, $sort, $setWindowFields, $project

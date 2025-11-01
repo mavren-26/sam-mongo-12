@@ -1,0 +1,13 @@
+💡 1. Find the Most Active Users (Based on Posts + Comments)
+
+Goal: Calculate total user engagement = number of posts + number of comments for each user and return the top 5.
+
+💾 Collections
+
+users → { _id, name }
+
+posts → { userId, title }
+
+comments → { userId, comment }
+
+🧠 Key Concept: $lookup, $group, $project, $addFields, $sort

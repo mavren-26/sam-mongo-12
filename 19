@@ -1,0 +1,6 @@
+🧠 3. Recommend Products Based on Purchase History (Collaborative Filtering)
+
+Goal: For a given user, find products bought by other users who purchased the same products — a basic recommendation system.
+
+💾 Collection: orders
+{ userId: 1, products: ["Laptop", "Mouse"] }
