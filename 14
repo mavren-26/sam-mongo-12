@@ -1,0 +1,3 @@
+📊 3. Program: Count Total Orders and Revenue per User
+
+Goal: Use $group to compute each user’s total orders and spending.

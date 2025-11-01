@@ -1,0 +1,3 @@
+🕓 5. Program: Delete Inactive Users Who Haven’t Logged In for 1 Year
+
+Goal: Automatically clean inactive user data using $lt date condition.

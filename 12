@@ -1,0 +1,3 @@
+🧩 1. Program: Find Top 3 Highest Rated Products in Each Category
+
+Goal: Use MongoDB Aggregation to group products by category and get top-rated one
