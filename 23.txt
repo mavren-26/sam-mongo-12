@@ -1,0 +1,13 @@
+📅 Problem 2: Find Users Who Joined in the Last 7 Days
+
+Problem:
+Given a collection users with fields:
+
+{
+  username: String,
+  email: String,
+  joinedAt: Date
+}
+
+
+Find all users who joined within the last 7 days.

@@ -1,0 +1,13 @@
+💰 Problem 3: Calculate Total Order Amount per User
+
+Problem:
+You have a collection orders with fields:
+
+{
+  userId: ObjectId,
+  totalAmount: Number,
+  status: String // "delivered", "pending", "cancelled"
+}
+
+
+Find each user’s total delivered order amount and sort users by their total amount in descending order.

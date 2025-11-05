@@ -1,0 +1,13 @@
+🧩 Problem 1: Top 3 Highest Salary Employees per Department
+
+Problem:
+You’re given a collection employees with fields:
+
+{
+  name: String,
+  department: String,
+  salary: Number
+}
+
+
+Write a MongoDB query to find the top 3 highest-paid employees in each department.
