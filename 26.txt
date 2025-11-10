@@ -1,0 +1,17 @@
+🧩 Problem 1: Find Active Users
+
+Description:
+Given a MongoDB collection users with documents like:
+
+{
+  "_id": 1,
+  "name": "Ankur",
+  "age": 20,
+  "isActive": true
+}
+
+
+Write a MongoDB query to find all users who are active.
+
+Expected Output:
+Return all documents where isActive is true.

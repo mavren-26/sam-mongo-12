@@ -1,0 +1,20 @@
+🧩 Problem 2: Count Products Under a Price
+
+Description:
+You have a collection products:
+
+{
+  "_id": 1,
+  "name": "Laptop",
+  "price": 45000
+}
+
+
+Write a query to count how many products have a price less than 50000.
+
+Expected Output:
+Return the number of such products.
+
+Solution:
+
+db.products.countDocuments({ price: { $lt: 50000 } })

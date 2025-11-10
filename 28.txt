@@ -1,0 +1,17 @@
+🧩 Problem 3: Find Students with Specific Grade
+
+Description:
+Collection students:
+
+{
+  "_id": 1,
+  "name": "Rishika",
+  "grade": "A",
+  "subject": "Math"
+}
+
+
+Write a query to find names of all students who scored grade "A" in Math.
+
+Expected Output:
+Return the list of students with grade “A” in Math.

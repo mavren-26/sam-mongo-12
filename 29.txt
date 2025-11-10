@@ -1,0 +1,16 @@
+🧩 Problem 4: Sort Employees by Salary
+
+Description:
+Given a collection employees:
+
+{
+  "_id": 1,
+  "name": "Aayush",
+  "salary": 80000
+}
+
+
+Write a MongoDB query to find all employees sorted by salary in descending order.
+
+Expected Output:
+All documents sorted from highest to lowest salary.
