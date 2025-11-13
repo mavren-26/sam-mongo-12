@@ -1,0 +1,14 @@
+🧩 Problem 2: Top Rated Products
+Description
+
+You’re given a products collection like:
+
+{
+  "_id": 1,
+  "name": "MacBook Pro",
+  "rating": 4.8,
+  "price": 1800
+}
+
+
+Write a MongoDB query using Mongoose to find the top 3 products with a rating of 4.5 or higher, sorted by rating (descending).
