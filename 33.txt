@@ -1,0 +1,59 @@
+✅ Problem 2 — Find All Products With Average Rating ≥ 4
+Problem Statement
+
+You have two collections:
+
+products
+{
+  name: String,
+  price: Number
+}
+
+reviews
+{
+  productId: ObjectId,
+  rating: Number,    // 1 to 5
+  comment: String
+}
+
+
+Write a query to fetch all products whose average rating is ≥ 4, along with:
+
+product name
+
+averageRating
+
+number of reviews
+
+Output example:
+
+[
+  { 
+    "name": "iPhone 15", 
+    "averageRating": 4.6,
+    "totalReviews": 120 
+  },
+  ...
+]
+
+Schemas
+Product.js
+import mongoose from "mongoose";
+
+const productSchema = new mongoose.Schema({
+  name: String,
+  price: Number
+});
+
+export default mongoose.model("Product", productSchema);
+
+Review.js
+import mongoose from "mongoose";
+
+const reviewSchema = new mongoose.Schema({
+  productId: { type: mongoose.Schema.Types.ObjectId, ref: "Product" },
+  rating: Number,
+  comment: String
+});
+
+export default mongoose.model("Review", reviewSchema);

@@ -1,0 +1,32 @@
+✅ Problem 1 — Top 5 Most Active Users (Activity Count)
+Problem Statement
+
+You have a collection activities containing user activity logs:
+
+{
+  userId: ObjectId,
+  action: String,       // "login", "upload", "comment"
+  createdAt: Date
+}
+
+
+Write a MongoDB query (via Mongoose) to return the top 5 users with the highest number of total activities.
+
+The output should look like:
+
+[
+  { "userId": "...", "totalActivities": 120 },
+  { "userId": "...", "totalActivities": 85 },
+  ...
+]
+
+Schema (Activity.js)
+import mongoose from "mongoose";
+
+const activitySchema = new mongoose.Schema({
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+  action: String,
+  createdAt: { type: Date, default: Date.now }
+});
+
+export default mongoose.model("Activity", activitySchema);
